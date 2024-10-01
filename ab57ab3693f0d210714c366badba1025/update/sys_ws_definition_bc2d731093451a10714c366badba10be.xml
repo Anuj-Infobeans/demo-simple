@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_inbe_demo_simple/sra_demosimple</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>SRA-DemoSimple</name>
+        <namespace>x_inbe_demo_simple</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>sra_demosimple</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:46:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc2d731093451a10714c366badba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SRA-DemoSimple</sys_name>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_ws_definition_bc2d731093451a10714c366badba10be</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:46:20</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CS-DemoSimple</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-09-26 13:20:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>477723ba93f0d210714c366badba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CS-DemoSimple</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_script_client_477723ba93f0d210714c366badba1007</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:20:54</sys_updated_on>
+        <table/>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

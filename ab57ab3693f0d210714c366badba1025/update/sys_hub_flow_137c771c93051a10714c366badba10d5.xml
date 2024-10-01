@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>flowdemosimple</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Flow-DemoSimple</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:43:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>137c771c93051a10714c366badba10d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Flow-DemoSimple</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_hub_flow_137c771c93051a10714c366badba10d5</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:45:30</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=137c771c93051a10714c366badba10d5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=137c771c93051a10714c366badba10d5^sys_idNOT IN177c3bdc93051a10714c366badba1008"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>137c771c93051a10714c366badba10d5</id>
+        <name>Flow-DemoSimple</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:43:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>177c3bdc93051a10714c366badba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:43:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=177c3bdc93051a10714c366badba1008"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=137c771c93051a10714c366badba10d5^sys_idNOT INd00db3dc93051a10714c366badba10e0"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow-DemoSimple">137c771c93051a10714c366badba10d5</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:45:30</sys_created_on>
+        <sys_id>d00db3dc93051a10714c366badba10e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:45:30</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/3WSW0vEMBCF/4rkea29iGjfBFnwQQUVX0TKNJnuDqRJTJPVKv53J21XxMvSl8ztfOewj+9CQ4ta1OI2mgNrxEqQCegN6PvRIdc3mhQ2CgI2gXrkgR4MP60fRR18xJWwXqEXdZHnK7EDHfFuHC4V7/KwgT5d8dE0lK5PfS6UeVUeFuVhVRzkeT193JVb0sqjEfXj00o48Lwd0u33H63AcM0e/YLhju5nOEq6ZyV0Up0dy6rkX56Xp8dFe1K1RakqQDzluV+2f4KG/+x/d4uvAY1C1uxAD/hHNh5B3Rg9fk1sOd85mh5eB3rD5ZTHDtmexLkpt5Yk3rhATDdVArR637Q69uZ6Jua3wg6iDg9LtlyJA0OjS3BJbtHu7rb25XYvtCYzOVma2krQXy8IwVMbAw4pfNTY86GmB+fIbBrn7Y6mZWbpsymkrNP2hUUH2pgMZALPOAvI1ly/mMoP4Cm5uOIzvPwxuW6eY9KdfSzEzWyaBxQNTsO4JtTLP2qQnlw4Z4EdLrgfT5+S3HDpyQIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=137c771c93051a10714c366badba10d5^sys_idNOT IN680dffdc93051a10714c366badba1051"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Flow-DemoSimple">137c771c93051a10714c366badba10d5</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:45:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>680dffdc93051a10714c366badba1051</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:45:30</sys_updated_on>
+        <ui_id>ce8d7094-c620-496f-b2eb-e947b9ef38a4</ui_id>
+        <values>H4sIAAAAAAAA/9VUTWvcMBD9K0Fns0jrZD98K4S9NYG25BIHM7bGuwJZdiV5k+2S/96RbKdp0oWltND6pjcf7z1pxvdHpiTL2EIgv1qLRZWKNJ1zPl9dinKRlmIuU0C8ZAkz0CBleig1FvGQsD3oPoDKVEqi8QRJ5ToNh7v3kWqntLRoWHb/kLAOLPXwaFl2fBPyhw4LDSVqavAl8F3cDHznav2p+IT2wPIWa60MgnjC8MmjkUh8NWiHCWvASPCtPbDM254AiyBvjT68ZOwU2cwYC7lPTn2j7ise8mokaxUOsWrXqgpvO69aMyBRwRhsdd+Ym0FtuEysodd+ukxCeoeFxC5oC2wjdf151z5+mog2ykQbY1C3FeiXE3hvVdl7dOHiUWNDjYoGuk6ZbdHZdq9iMWlpZltNh1mt20cidWprZlAF4TO6CphtCL+O8B1YFVx8pDZU/BxdF1/7wDv4GBUXg2lKcJVVnf9A7fY4intOpmmUyNcnX1iUP140DqB7NYnggp7oaWvbvst7zlN5zKe5zFmWs2tSX4LDnCX5UBnh+WqJuKgR1jWK9UpwDhKW6ysueSnKZRrT3cEVSp6Z//x+If49gb+5l9iQXI8Xg7Hk7JebGmwUaul+8ZTTYo4ExX4kGJdT/KnlFAsev7+8ooOg/2xDX/0VT+zqw3db4dvyOwYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=137c771c93051a10714c366badba10d5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=137c771c93051a10714c366badba10d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_137c771c93051a10714c366badba10d5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_137c771c93051a10714c366badba10d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_137c771c93051a10714c366badba10d5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_137c771c93051a10714c366badba10d5"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=137c771c93051a10714c366badba10d5"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=137c771c93051a10714c366badba10d5"/>
+</record_update>

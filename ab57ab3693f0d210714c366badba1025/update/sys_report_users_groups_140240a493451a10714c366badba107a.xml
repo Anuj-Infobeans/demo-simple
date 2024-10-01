@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Report-DemoSimple">140240a493451a10714c366badba1079</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 07:07:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>140240a493451a10714c366badba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>140240a493451a10714c366badba1079</sys_name>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_report_users_groups_140240a493451a10714c366badba107a</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 07:07:20</sys_updated_on>
+        <user_id display_value="Anuj Patidar">bbc6f6c893e0de10714c366badba10bd</user_id>
+    </sys_report_users_groups>
+</record_update>

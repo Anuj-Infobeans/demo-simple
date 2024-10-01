@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>FS-DemoSimple</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[//Comment1]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:29:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a39bf5893051a10714c366badba1087</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FS-DemoSimple</sys_name>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_script_fix_5a39bf5893051a10714c366badba1087</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:29:44</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5a39bf5893051a10714c366badba1087</id>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:29:17</sys_created_on>
+        <sys_id>7e49b3d893051a10714c366badba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:29:17</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Query API</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	//Comment1
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_inbe_demo_simple/sra_demosimple</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:47:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c85d371093451a10714c366badba1085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query API</sys_name>
+        <sys_package display_value="Demo-Simple" source="x_inbe_demo_simple">ab57ab3693f0d210714c366badba1025</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo-Simple">ab57ab3693f0d210714c366badba1025</sys_scope>
+        <sys_update_name>sys_ws_operation_c85d371093451a10714c366badba1085</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:47:36</sys_updated_on>
+        <web_service_definition display_value="SRA-DemoSimple">bc2d731093451a10714c366badba10be</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c85d371093451a10714c366badba1085</id>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-10-01 06:47:36</sys_created_on>
+        <sys_id>9f7db31093451a10714c366badba107d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-10-01 06:47:36</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
